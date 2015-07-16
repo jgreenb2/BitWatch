@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BitWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>BitWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>751D9EE41B5852B7007EEDD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7B876B631A1C9F2D00A76FAF</key>
 		<dict>
 			<key>primary</key>
