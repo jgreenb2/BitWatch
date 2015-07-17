@@ -14,6 +14,8 @@
 		751D9EF01B5852B7007EEDD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751D9EEF1B5852B7007EEDD9 /* Images.xcassets */; };
 		751D9EF31B5852B7007EEDD9 /* BitWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 751D9EDB1B5852B7007EEDD9 /* BitWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		751D9EFA1B585502007EEDD9 /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; };
+		757B1F6E1B59BB19001BE168 /* Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 757B1F6C1B59BB19001BE168 /* Down@2x.png */; };
+		757B1F6F1B59BB19001BE168 /* Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 757B1F6D1B59BB19001BE168 /* Up@2x.png */; };
 		7B876B6A1A1C9F2D00A76FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */; };
 		7B876B6F1A1C9F2D00A76FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B6D1A1C9F2D00A76FAF /* Main.storyboard */; };
 		7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B701A1C9F2D00A76FAF /* Images.xcassets */; };
@@ -83,6 +85,8 @@
 		751D9EEB1B5852B7007EEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751D9EED1B5852B7007EEDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		751D9EEF1B5852B7007EEDD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		757B1F6C1B59BB19001BE168 /* Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Down@2x.png"; sourceTree = "<group>"; };
+		757B1F6D1B59BB19001BE168 /* Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Up@2x.png"; sourceTree = "<group>"; };
 		7B876B641A1C9F2D00A76FAF /* BitWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B876B681A1C9F2D00A76FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				751D9EEC1B5852B7007EEDD9 /* Interface.storyboard */,
 				751D9EEF1B5852B7007EEDD9 /* Images.xcassets */,
+				757B1F6C1B59BB19001BE168 /* Down@2x.png */,
+				757B1F6D1B59BB19001BE168 /* Up@2x.png */,
 				751D9EEA1B5852B7007EEDD9 /* Supporting Files */,
 			);
 			path = "BitWatch WatchKit App";
@@ -383,6 +389,8 @@
 			files = (
 				751D9EEE1B5852B7007EEDD9 /* Interface.storyboard in Resources */,
 				751D9EF01B5852B7007EEDD9 /* Images.xcassets in Resources */,
+				757B1F6E1B59BB19001BE168 /* Down@2x.png in Resources */,
+				757B1F6F1B59BB19001BE168 /* Up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +723,7 @@
 				751D9EF71B5852B7007EEDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		751D9EF91B5852B7007EEDD9 /* Build configuration list for PBXNativeTarget "BitWatch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +732,7 @@
 				751D9EF51B5852B7007EEDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B876B5F1A1C9F2D00A76FAF /* Build configuration list for PBXProject "BitWatch" */ = {
 			isa = XCConfigurationList;
