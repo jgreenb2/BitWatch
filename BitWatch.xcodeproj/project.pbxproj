@@ -14,6 +14,9 @@
 		751D9EF01B5852B7007EEDD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751D9EEF1B5852B7007EEDD9 /* Images.xcassets */; };
 		751D9EF31B5852B7007EEDD9 /* BitWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 751D9EDB1B5852B7007EEDD9 /* BitWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		751D9EFA1B585502007EEDD9 /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; };
+		757E0CAE1B5D402900705757 /* bitcoin80.png in Resources */ = {isa = PBXBuildFile; fileRef = 757E0CAB1B5D402900705757 /* bitcoin80.png */; };
+		757E0CAF1B5D402900705757 /* bitcoin120.png in Resources */ = {isa = PBXBuildFile; fileRef = 757E0CAC1B5D402900705757 /* bitcoin120.png */; };
+		757E0CB01B5D402900705757 /* bitcoin180.png in Resources */ = {isa = PBXBuildFile; fileRef = 757E0CAD1B5D402900705757 /* bitcoin180.png */; };
 		7B876B6A1A1C9F2D00A76FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */; };
 		7B876B6F1A1C9F2D00A76FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B6D1A1C9F2D00A76FAF /* Main.storyboard */; };
 		7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B701A1C9F2D00A76FAF /* Images.xcassets */; };
@@ -83,6 +86,9 @@
 		751D9EEB1B5852B7007EEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751D9EED1B5852B7007EEDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		751D9EEF1B5852B7007EEDD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		757E0CAB1B5D402900705757 /* bitcoin80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin80.png; sourceTree = "<group>"; };
+		757E0CAC1B5D402900705757 /* bitcoin120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin120.png; sourceTree = "<group>"; };
+		757E0CAD1B5D402900705757 /* bitcoin180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin180.png; sourceTree = "<group>"; };
 		7B876B641A1C9F2D00A76FAF /* BitWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B876B681A1C9F2D00A76FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B876B691A1C9F2D00A76FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +206,9 @@
 		7B876B671A1C9F2D00A76FAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				757E0CAB1B5D402900705757 /* bitcoin80.png */,
+				757E0CAC1B5D402900705757 /* bitcoin120.png */,
+				757E0CAD1B5D402900705757 /* bitcoin180.png */,
 				7BA883AD1A1CABEE00C53ECE /* BitWatch.entitlements */,
 				7B876B681A1C9F2D00A76FAF /* Info.plist */,
 			);
@@ -390,6 +399,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757E0CB01B5D402900705757 /* bitcoin180.png in Resources */,
+				757E0CAE1B5D402900705757 /* bitcoin80.png in Resources */,
+				757E0CAF1B5D402900705757 /* bitcoin120.png in Resources */,
 				7B876B6F1A1C9F2D00A76FAF /* Main.storyboard in Resources */,
 				7B876B741A1C9F2D00A76FAF /* LaunchScreen.xib in Resources */,
 				7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */,
@@ -715,6 +727,7 @@
 				751D9EF71B5852B7007EEDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		751D9EF91B5852B7007EEDD9 /* Build configuration list for PBXNativeTarget "BitWatch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +736,7 @@
 				751D9EF51B5852B7007EEDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B876B5F1A1C9F2D00A76FAF /* Build configuration list for PBXProject "BitWatch" */ = {
 			isa = XCConfigurationList;
